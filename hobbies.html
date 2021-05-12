@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My hobbies</title>
+</head>
+
+<body>
+  <h3>Hobbies</h3>
+  <ul>
+    <li>Playing Piano</li>
+    <li>Watching movies and listing to music</li>
+    <li>Playing cricket</li>
+    <li>Coding</li>
+  </ul>
+  <br>
+
+  <h3>Contact me Form</h3>
+  <form action="mailto:abhishek.s@btech.christuniversity.in" method="Post" enctype="text/plain">
+
+    <div>
+      <label for="name">Name</label>
+      <input type="text" name="Name" id="name" required>
+    </div>
+    <div>
+      <label for="age">Age</label>
+      <input type="number" name="Age" id="age" min="1" max="200" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="Email" id="email" required>
+    </div>
+    <div>
+      Gender
+      <div>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" required>
+
+      </div>
+    </div>
+    <div>
+      <label for="date">Birthdate</label>
+      <input type="date" name="date" id="date">
+    </div>
+    Qualification
+    <div>
+      <label for="10th">10th</label>
+      <input type="checkbox" name="grade" id="10th">
+      <label for="12th">12th</label>
+      <input type="checkbox" name="grade" id="12th">
+      <label for="Graduation">Graduation</label>
+      <input type="checkbox" name="degree" id="Graduation">
+      <label for="pstgrd">Post Graduation</label>
+      <input type="checkbox" name="degree" id="pstgrd">
+
+    </div>
+    <div>
+      <label for="eyecolor">EyeColor</label>
+      <select name="eyecolor" id=eyecolor>
+        <option value="black">Black</option>
+        <option value="brown">Brown</option>
+        <option value="blue">Blue</option>
+      </select>
+    </div>
+
+    
+
+
+
+
+    <button type="reset" name="button">Reset</button>
+    <button type="submit" name="button">Submit</button>
+
+
+
+  </form>
+
+</body>
+
+</html>
